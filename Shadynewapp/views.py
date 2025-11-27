@@ -5,5 +5,5 @@ from django.http import HttpResponse
 def say_hi(request):
    return HttpResponse("Hi there! Welcome to Shadynewapp.")
 
-#def runtemplate(request):
-#       return render(request, 'Shadynewapp/shady.html')
+def runtemplate(request):
+      return render(request, 'Shadynewapp/shady.html')
