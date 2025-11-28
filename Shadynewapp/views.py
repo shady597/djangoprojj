@@ -3,6 +3,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 def say_hi(request):
+   e = 4
+   r = 6
    return HttpResponse("Hi there! Welcome to Shadynewapp.")
 
 def runtemplate(request):
